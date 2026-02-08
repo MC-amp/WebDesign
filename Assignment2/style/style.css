@@ -1,19 +1,17 @@
-/* Here is my body styling. It applies to all of the content on the page. */ 
     body {
-        background-color: #B0E0E6;
+        background-color: #123b20;
         font-family: Georgia, serif;
     }
 
-/* Here is my header styling */
     header {
-        border: 5px solid #000000;
-        padding: 35px;
+        border: 10px solid #000000;
+        padding: 30px;
         text-align: center;
-        background-color: #FFFAFA;
+        background-color: #5b1c6e;
         margin-bottom: 10px;
+        color: #f1f0f0;
     }
 
-/* Here is my navigation styling, including list and link styling */
     nav {
         max-width: 100%;
         margin: 0 auto;
@@ -34,24 +32,19 @@
     }
 
     a {
-        color: #FFFFFF;
+        color: #3f5679;
     }
 
-/* Here is my div styling */    
+ 
     div {
-        background-color: #FFFAFA;
+        background-color: #35152d;
         padding: 10px;
         border: 5px solid #000000;
         margin-top: 10px;
-        font-family: Tahoma, sans-serif;
+        color: #f1f0f0;
     }
+  
 
-/* Centers the h3 inside the div */    
-    div h3 {
-        text-align: center;
-    }
-
-/* Here is my footer styling */
     footer {
         background-color: #000000;
         color: #FFFFFF;
@@ -60,9 +53,10 @@
         margin-top: 10px;
     }
 
-/* Here is my image styling */    
     img {
         display: block;
         max-width: 100%;
         margin: 0 auto;
     }
+
+
