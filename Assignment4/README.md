@@ -1,0 +1,1 @@
+I really liked grid and the way it it worked, but it was different than I was used to. However, I didn't really see the purpose in flexbox for this. However, my flexbox page was very simple, and doing it manually would of probably been easier for something this small, so It might be useful for something larger.
