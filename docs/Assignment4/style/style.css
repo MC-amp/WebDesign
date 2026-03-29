@@ -165,4 +165,15 @@ body {
   .grid-gallery {
     grid-template-columns: 1fr;
   }
+  .footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-top: 40px;
+  padding: 20px 40px;
+  background-color: #222222;
+  color: #b60e0e;
+  font-family: Arial, sans-serif;
+}
 }
