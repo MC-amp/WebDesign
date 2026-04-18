@@ -4,37 +4,42 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Grid</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="nav">
     <a href="index.html">Home</a>
-    <a href="grid.html">Grid</a>
+    <a href="grid.html" class="active">Grid</a>
     <a href="flexbox.html">Flexbox</a>
     <a href="blog-post.html">Blog Post</a>
   </div>
 
-  <h1 class="page-title">Are these images AI or not?</h1>
+  <div class="page-shell">
+    <h1 class="page-title">Are These Images AI or Not?</h1>
 
-  <div class="grid-wrapper">
-    <div class="grid-gallery">
-        
-      <div class="grid-card">
-        <img src="images/Real.png" alt="Gallery image 1">
-        <div class="grid-overlay">AI or no?</div>
+    <div class="grid-wrapper">
+      <div class="grid-gallery">
+        <div class="grid-card">
+          <img src="images/Real.png" alt="First gallery image">
+          <div class="grid-overlay">AI or no?</div>
+        </div>
+
+        <div class="grid-card">
+          <img src="images/AI2.png" alt="Second gallery image">
+          <div class="grid-overlay">AI or no?</div>
+        </div>
+
+        <div class="grid-card">
+          <img src="images/AI1.png" alt="Third gallery image">
+          <div class="grid-overlay">AI or no?</div>
+        </div>
       </div>
-
-      <div class="grid-card">
-        <img src="images/AI2.png" alt="Gallery image 2">
-        <div class="grid-overlay">AI or no?</div>
-      </div>
-
-      <div class="grid-card">
-        <img src="images/AI1.png" alt="Gallery image 3">
-        <div class="grid-overlay">AI or no?</div>
-      </div>
-
-
+    </div>
   </div>
+
+  <footer class="footer">
+    <p>© 2026 Matthew Camp</p>
+    <p>Assignment 4</p>
+  </footer>
 </body>
 </html>
