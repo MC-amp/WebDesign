@@ -18,12 +18,13 @@ main {
   margin: 0;
 }
 
-.page-text {
+.page-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  max-width: 900px;
   text-align: center;
-  max-width: 850px;
-  margin: 0 auto;
-  font-size: 20px;
-  line-height: 1.6;
 }
 
 .hero-section {
